@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>attach files</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/7266b8e984.js" crossorigin="anonymous"></script>
+<link rel="stylesheet"  href="css/mystyle.css"/>
+<script src="js/myscripts.js"></script>
+</head>
+<style>
+body{background-color:rbg(255,255,255);}
+</style>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="http://www.seriouseats.com/">Recipie blogs</a>
+  <a href="https://www.epicurious.com/expert-advice">Expert advice</a>
+  <a href="https://www.epicurious.com/holidays-events">Holidays and Events</a>
+  <a href="#About">About us</a>
+</div>
+
+
+
+
+<span style="font-size:40px;text-align:left;cursor:pointer;color:red" onclick="openNav()">&#9776;</span>
+<h1 class="title_delisious"><b><i><i class="fas fa-apple-alt fa-1x" style="color:red;"></i>Delisious<i class="fas fa-apple-alt fa-1x" style="color:red;"></i><b><i></h1>
+
+
+
+<!--<div style="margin-left:80px;">-->
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="#search"><i class="fa fa-fw fa-search"></i> Search</a>  
+<a href="#About"><i class="fa fa-fw fa-envelope"></i> contact</a>  
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;background-color:orange";><i class="fa fa-fw fa-user"></i>Sign Up</button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+</div>
+</div>
+
+
+
+<div class="box"> 
+    <img src="2.jpg" /> 
+  </div>
+
+
+<div class="container_transparent_image_text">
+  <img src="3.jpg" alt="Notebook" style="width:100%;">
+  <div class="content_transparent_image_text">
+    <h1>KEBAB</h1>
+    <p>Kebab generally refers to any dish of meat, fish or vegetables, which are grilled on a skewer or roasted using a rotisserie. In Turkey, the word kebap extends to include any of these dishes that are cooked over, or next to, a flame.<p>
+ </div>
+</div>
+
+<div class="container_transparent_image_text">
+  <img src="8.jpg" alt="Notebook" style="width:100%;">
+  <div class="content_transparent_image_text">
+    <h1>Poland: Chlodnik</h1>
+    <p>A summer staple, Polish chlodnik is a refreshing cold beet soup with a vibrant pink color. It's flavored with cucumbers, radishes, plain yogurt and topped with hard-boiled eggs, making it a truly healthy and delicious meal.</p>
+ </div>
+</div>
+
+
+
+<div class="main_portfollio">
+
+<h1 style="font-family:consolas; color:orange;">Foods with uniqueness</h1>
+<hr>
+<h2 style="font-family:consolas; color:brown;">Some of the best foods of the world:-</h2>
+
+<div class="row_portfollio">
+  <div class="column_portfollio">
+    <div class="content_portfollio">
+<h1 style="font-family:consolas; color:purple;font-size:30px">1.Colcannon Potatoes</h1>
+      <img src="4.jpg" alt="Colcannon Potatoes" style="width:60%">
+      <h3><b>Ireland<b></h3>
+      <p>Every Irish family has its own version or this classic dish. My recipe comes from my father’s family in Ireland. It’s part of my St. Pat’s menu, along with lamb chops, carrots and soda bread. —Marilou Robinson, Portland, Oregon</p>
+    </div>
+  </div>
+<br>
+  <div class="column_portfollio">
+    <div class="content_portfollio">
+<h1 style="font-family:consolas; color:purple;font-size:30px">2.Scottish Oatmeal Rolls</h1>
+    <img src="5.jpg" alt="Scottish Oatmeal Rolls" style="width:100%">
+      <h3><b>Scotland<b></h3>
+      <p>My family likes rolls that can hold up to scooping gravies, sauces and more. This recipe is a favorite. The oatmeal in the dough gives it a Scottish touch. —Peggy Goodrich, Enid, Oklahoma</p>
+    </div>
+  </div>
+  <div class="column_portfollio">
+    <div class="content_portfollio">
+<h1 style="font-family:consolas; color:purple;font-size:30px">3.Crispy Fish&Chips</h1>
+    <img src="6.jpg" alt="Crispy Fish&Chips" style="width:60%">
+      <h3><b>England<b></h3>
+      <p>A British pub classic turns crown jewel when you add horseradish, panko and Worcestershire. You can also try it with white fish like cod or haddock. —Linda Schend, Kenosha, Wisconsin</p>
+    </div>
+  </div>
+  <div class="column_portfollio">
+    <div class="content_portfollio">
+<h1 style="font-family:consolas; color:purple;font-size:30px">4.Sparkling Peach Bellinis</h1>
+    <img src="7.jpg" alt="Sparkling Peach Bellini" style="width:100%">
+      <h3><b>Italy<b></h3>
+      <p>Folks will savor the subtle peach flavor in this elegant brunch beverage. — Taste of Home Test Kitchen</p>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+<h2 id="search" style="font-family:consolas; color:black;"><b>Search your Recipe<b></h2>
+<form class="example" action="/action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+<h1 id="About" style="font-family:consolas; color:black;font-size:30px">About us</h1>
+<br>
+<div class="row_meet_the_team">
+  <div class="column_meet_the_team">
+    <div class="card_meet_the_team">
+      <img src="9.jpg" alt="Ravi" style="width:100%">
+      <div class="container_meet_the_team">
+        <h2 style="font-family:consolas; color:black;><b>Ravi<b></h2>
+        <p class="title_meet_the_team">CEO & Founder</p>
+        <p>Made the basic struture of this web page.Also wrote the entire HTML code.</p>
+        <p>Email:-ravishankarnayak2000@gmail.com</p>
+        <p><button class="button_meet_the_team">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column_meet_the_team">
+    <div class="card_meet_the_team">
+      <img src="10.jpg" alt="Ranjith" style="width:100%">
+      <div class="container_meet_the_team">
+        <h2 style="font-family:consolas; color:black;><b>Ranjit<b></h2>
+        <p class="title_meet_the_team">Art Director</p>
+        <p>Did the whole art of the web page with CSS</p>
+        <<p>Email:-ranjithkumar93477@gmail.com</p>
+        <p><button class="button_meet_the_team">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column_meet_the_team">
+    <div class="card_meet_the_team">
+      <img src="11.jpg" alt="vivek" style="width:100%">
+      <div class="container_meet_the_team">
+        <h2 style="font-family:consolas; color:black;><b>Vivek<b></h2>
+        <p class="title_meet_the_team">Designer</p>
+        <p>Designed the Web page with Javascript.</p>
+        <p>Email:-vivekchowdarykodavali@gmail.com</p>
+        <p><button class="button_meet_the_team">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html> 
