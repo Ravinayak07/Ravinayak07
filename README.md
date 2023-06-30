@@ -1,9 +1,9 @@
 <h1 align="center">👋 Hi, I'm <a href="https://www.linkedin.com/in/ravi-shankar-nayak-302881192/" target="_blank"> Ravi Shankar Nayak </a></h1>
 <h2 align="center"> <img src="https://readme-typing-svg.herokuapp.com?color=0357F7&lines=Front+End+Developer+%3A)" /> </h2>
 
-- 👨‍💻 Check out my portfolio : **<a href="https://rsn-portfolio.web.app/" target="_blank">Portfolio</a>**
+- My portfolio : **<a href="https://rsn-portfolio.web.app/" target="_blank">Portfolio</a>**
 
-<h3 align="left">Stack :</h3>
+<h3 align="left">Tech Stack :</h3>
 <div align="left">
 <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
 <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/> 
