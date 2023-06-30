@@ -42,7 +42,7 @@
 <table>
   <tr>
     <td><img src="https://github-readme-stats.vercel.app/api?username=Ravinayak07&show_icons=true&theme=dark&locale=en" alt="Ravinayak07" /></td>
-    <td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=jigar-sable&show_icons=true&theme=dark&locale=en&layout=compact" alt="Ravinayak07" /></td>
+    <td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=Ravinayak07&show_icons=true&theme=dark&locale=en&layout=compact" alt="Ravinayak07" /></td>
   </tr>
 </table>
 
