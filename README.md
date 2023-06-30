@@ -1,5 +1,5 @@
-<h1 align="center">👋 Hi, I'm <a href="https://www.linkedin.com/in/ravi-shankar-nayak-302881192/" target="_blank"> Ravi Shankar Nayak </a></h1>
-<h2 align="center"> <img src="https://readme-typing-svg.herokuapp.com?color=0357F7&lines=Front+End+Developer+%3A)" /> </h2>
+<h1 align="center">Hello, I'm <a href="https://www.linkedin.com/in/ravi-shankar-nayak-302881192/" target="_blank"> Ravi Shankar Nayak </a></h1>
+<h2 align="center"> <img src="https://readme-typing-svg.herokuapp.com?color=0357F7&lines=Enthusiastic+Front+End+Developer" /> </h2>
 
 - My portfolio : **<a href="https://rsn-portfolio.web.app/" target="_blank">Portfolio</a>**
 
